@@ -49,7 +49,6 @@
 
     function fetchUsers(page) {
         fetch(`https://users-pagination-api.onrender.com/api/users?page=${currentPage}&limit=${limit}&search=${searchText}`)
-)
             .then(response => response.json())
             .then(result => {
                 const users = result.data;
@@ -156,4 +155,5 @@ function addDots() {
 </body>
 
 </html>
+
 
