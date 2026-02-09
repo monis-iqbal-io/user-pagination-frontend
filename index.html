@@ -48,7 +48,7 @@
     const searchBtn = document.getElementById("searchBtn");
 
     function fetchUsers(page) {
-        fetch(`http://127.0.0.1:5000/api/users?page=${page}&limit=${limit}&search=${searchText}`)
+        fetch(https://users-pagination-api.onrender.com/api/users)
             .then(response => response.json())
             .then(result => {
                 const users = result.data;
@@ -153,4 +153,5 @@ function addDots() {
 
     
 </body>
+
 </html>
