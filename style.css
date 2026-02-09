@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: lightgray;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Search section */
+input[type="text"] {
+    padding: 7px 10px;
+    width: 220px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+button {
+    padding: 7px 14px;
+    margin: 3px;
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Button hover */
+button:hover:not(:disabled) {
+    background-color: skyblue;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: silver ;
+}
+
+/* Pagination area */
+#pageNumbers button {
+    min-width: 35px;
+}
+
+/* Active page number */
+#pageNumbers button:disabled {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+/* Disabled buttons */
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
